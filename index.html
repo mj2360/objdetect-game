@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Machine Learning Game</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="library/p5.min.js"></script>
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+  </head>
+
+  <body>
+    <script src="sketch.js"></script>
+
+    <div id= "guess-box" class = "yllw-boxes">
+      <button id="guess">Guess</button>
+      <div id= "custom-box" class = "yllw-boxes">
+        <button id="filters">Change Filter</button>
+        <!-- <button id="gray">Gray-Scale</button>
+        <button id="posterize">Posterize</button>
+        <button id="blur">Blur</button> -->
+      </div>
+    </div>
+
+    <div id= "q-box" class = "yllw-boxes">
+      <p>Did the Computer guess correctly?</p>
+      <button id="yes">Yes</button>
+      <button id="no">No</button>
+    </div>
+
+ 
+
+  </body>
+</html>
